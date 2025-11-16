@@ -1,0 +1,10 @@
+site_name: Administración de Redes en la Nube (ASRN)
+theme:
+  name: material
+
+nav:
+  - Inicio: index.md
+  - VPC:
+      - Conceptos: vpc/01-conceptos.md
+      - Routing: vpc/02-routing.md
+
