@@ -1,5 +1,7 @@
-﻿![Generalitat Valenciana - CEUO / IES Poeta Paco Mollá (Alicante)](http://julio.iespacomolla.es/Recursos-Comunes/Cabecera_CEUO_IESPPM_NOFSE_Transparente.svg)
-
+&nbsp;  
+<span style="margin-left:27px"></span>![Generalitat Valenciana - CE](http://julio.iespacomolla.es/Recursos-Comunes/logo_gva-ce_semitransp.svg)<span style="margin-left:77px"></span>![IES Poeta Paco Mollá](http://julio.iespacomolla.es/Recursos-Comunes/logo_iesppm_semitransp.svg)
+&nbsp;  
+&nbsp;  
 
 # Gestión de Direcciones IP con AWS IPAM
 
