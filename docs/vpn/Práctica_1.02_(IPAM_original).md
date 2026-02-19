@@ -1,5 +1,5 @@
 ﻿&nbsp;  
-<span style="margin-left:27px"></span>![Generalitat Valenciana - CE](http://julio.iespacomolla.es/Recursos-Comunes/logo_gva-ce_semitransp.svg)<span style="margin-left:77px"></span>![IES Poeta Paco Mollá](http://julio.iespacomolla.es/Recursos-Comunes/logo_iesppm_semitransp.svg)
+<span style="margin-left:27px"></span>![Generalitat Valenciana - CE](https://raw.githubusercontent.com/juliogaray/recursos/main/img/logo_gva-ce_semitransp.svg)<span style="margin-left:77px"></span>![IES Poeta Paco Mollá](https://raw.githubusercontent.com/juliogaray/recursos/main/img/logo_iesppm_semitransp.svg)
 &nbsp;  
 &nbsp;  
 
