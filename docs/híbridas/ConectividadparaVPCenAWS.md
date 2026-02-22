@@ -9,13 +9,13 @@
 
 Las **VPC** permiten desplegar infraestructuras de red dentro de AWS con control granular sobre el tráfico y la seguridad. Sin embargo, en muchos escenarios es necesario conectar la VPC con otros entornos, como redes locales empresariales, oficinas remotas o dispositivos individuales.
 
-﻿![Modalidades de acceso remoto a VPN](https://juliogaray.github.io/CEASRN.ARN/docs/img/AccesoRemoto.svg)
+﻿![Modalidades de acceso remoto a VPN](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/docs/img/AccesoRemoto.svg)
 
 Las principales opciones de conectividad incluyen:
 
 ## 1. Conexiones *Site-to-Site:* túneles VPN empresariales
 
-### **AWS *Site-to-Site* VPN** ![Icono de conexión AWS site-to-site](https://juliogaray.github.io/CEASRN.ARN/docs/img/SiteToSiteVPN.svg)
+### **AWS *Site-to-Site* VPN** ![Icono de conexión AWS site-to-site](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/docs/img/SiteToSiteVPN.svg)
 Este tipo de conexión permite **enlazar una red local con una VPC** en AWS a través de un [***túnel VPN IPsec***](https://www.cloudflare.com/es-es/learning/network-layer/what-is-ipsec/). Se configura sobre Internet y ofrece cifrado y autenticación para la protección del tráfico en tránsito.
 
 - **Componentes:**
@@ -35,7 +35,7 @@ Este tipo de conexión permite **enlazar una red local con una VPC** en AWS a tr
 
 ## 2. Conexiones *Host-to-Site:* acceso remoto seguro
 
-### **AWS Client VPN** ![Icono de conexión AWS VPN](https://juliogaray.github.io/CEASRN.ARN/docs/img/ClientVPNEndpoint.svg)
+### **AWS Client VPN** ![Icono de conexión AWS VPN](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/docs/img/ClientVPNEndpoint.svg)
 Para permitir que usuarios individuales accedan de forma segura a una VPC desde cualquier ubicación, AWS ofrece **Client VPN**, que utiliza el protocolo [***OpenVPN***](https://es.wikipedia.org/wiki/OpenVPN).
 
 - **Características:**
@@ -54,7 +54,7 @@ Para permitir que usuarios individuales accedan de forma segura a una VPC desde 
   - Conexión remota de administradores a instancias en AWS;
   - Alternativa a VPN tradicionales cuando no se requiere una conexión permanente.
 
-## 3. Conexiones dedicadas: *AWS Direct Connect* ![Icono de conexión AWS Direct Connect](https://juliogaray.github.io/CEASRN.ARN/docs/img/DirectConnect.svg)
+## 3. Conexiones dedicadas: *AWS Direct Connect* ![Icono de conexión AWS Direct Connect](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/docs/img/DirectConnect.svg)
 Para empresas que requieren **baja latencia, mayor ancho de banda y seguridad adicional**, AWS ofrece **Direct Connect**, que establece un enlace físico entre el centro de datos del cliente y AWS. Esto es lo que tradicionalmente se denominaba [*línea alquilada*](https://techlib.net/techedu/linea-alquilada/).
 
 - **Características:**
@@ -76,14 +76,14 @@ Una línea **AWS Direct Connect** puede terminar en diversos puntos dentro de la
 
 ### Posibles terminaciones de una conexión *Direct Connect*
 
-- **Directamente en una VPC a través de una Virtual Private Gateway (VGW)** ![Icono de VGW](https://juliogaray.github.io/CEASRN.ARN/docs/img/VGW.svg)
+- **Directamente en una VPC a través de una Virtual Private Gateway (VGW)** ![Icono de VGW](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/docs/img/VGW.svg)
    - La conexión *Direct Connect* puede terminar en una **Virtual Private Gateway (VGW)** de una VPC específica.  
    - Es la opción más sencilla, pero está limitada a una única VPC dentro de la misma región.  
 
-- **A través de una Direct Connect Gateway (DXGW)** ![Icono de DXGW](https://juliogaray.github.io/CEASRN.ARN/docs/img/DXGW.svg)
+- **A través de una Direct Connect Gateway (DXGW)** ![Icono de DXGW](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/docs/img/DXGW.svg)
    - Permite conectar una única línea *Direct Connect* a **múltiples VPC en diferentes regiones** (dentro de la misma cuenta de AWS).  
 
-- **A través de una Transit Gateway (TGW)** ![Icono de TGW](https://juliogaray.github.io/CEASRN.ARN/docs/img/TransitGateway.svg)
+- **A través de una Transit Gateway (TGW)** ![Icono de TGW](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/docs/img/TransitGateway.svg)
    - Si se usa **AWS Transit Gateway (TGW)** junto con *Direct Connect,* el tráfico puede distribuirse a múltiples VPC y redes *on-premises.*
    - En este caso, Direct Connect se conecta a **DXGW**, que luego se asocia a una **TGW**.
    - Permite interconectar varias VPC y redes híbridas de manera más escalable.

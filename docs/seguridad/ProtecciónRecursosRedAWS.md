@@ -10,7 +10,7 @@ La protección de recursos en AWS es un componente fundamental de cualquier estr
 
 ---
 
-## 1. AWS Network Firewall: Protección avanzada a nivel de red ﻿![Icono de AWS Network Firewall](https://juliogaray.github.io/CEASRN.ARN/docs/img/AWSNetworkFirewall.svg)
+## 1. AWS Network Firewall: Protección avanzada a nivel de red ﻿![Icono de AWS Network Firewall](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/docs/img/AWSNetworkFirewall.svg)
 
 *AWS Network Firewall* es un servicio completamente administrado que permite implementar políticas de seguridad avanzadas para proteger el tráfico de red. Diseñado para usuarios que requieren control granular sobre su tráfico y protección frente a amenazas modernas, AWS Network Firewall combina reglas de filtrado personalizadas con funciones avanzadas de inspección.
 
@@ -46,7 +46,7 @@ La protección de recursos en AWS es un componente fundamental de cualquier estr
 
 Los **Security Groups** son un componente fundamental para controlar el tráfico de red hacia y desde las instancias EC2 y otros servicios compatibles. Actúan como un cortafuegos virtual que define reglas de entrada y salida basadas en características específicas del tráfico.
 
- ﻿![Esquema de red en AWS con Security Groups y NACL](https://juliogaray.github.io/CEASRN.ARN/docs/img/SecurityGroupsYNACL.svg)
+ ﻿![Esquema de red en AWS con Security Groups y NACL](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/docs/img/SecurityGroupsYNACL.svg)
 
 ### Características principales:
 - **Estado *(stateful):***
@@ -132,7 +132,7 @@ Las **NACL** proporcionan un nivel adicional de control al filtrar el tráfico e
 
 ## Otras herramientas útiles para el filtrado de tráfico
 
-### AWS Firewall Manager ﻿![Icono de AWS Network Firewall](https://juliogaray.github.io/CEASRN.ARN/docs/img/FirewallManager.svg)
+### AWS Firewall Manager ﻿![Icono de AWS Network Firewall](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/docs/img/FirewallManager.svg)
 
 **AWS Firewall Manager** facilita la **administración centralizada** de reglas de seguridad en múltiples cuentas y regiones dentro de una organización de AWS.
 #### Características principales:
@@ -144,7 +144,7 @@ Las **NACL** proporcionan un nivel adicional de control al filtrar el tráfico e
   - Empresas con arquitecturas multi-región y multi-cuenta.
   - Simplificación de la gestión de reglas en entornos grandes.
 
-### AWS Shield ﻿![Icono de AWS Network Firewall](https://juliogaray.github.io/CEASRN.ARN/docs/img/AWSShield.svg)
+### AWS Shield ﻿![Icono de AWS Network Firewall](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/docs/img/AWSShield.svg)
 
 **AWS Shield** es un servicio administrado de protección contra ataques DDoS (Distributed Denial of Service). Proporciona dos niveles de protección: **Shield Standard** (gratuito) y **Shield Advanced** (servicio de pago).
 
@@ -156,7 +156,7 @@ Las **NACL** proporcionan un nivel adicional de control al filtrar el tráfico e
 - Empresas que necesitan protección garantizada contra grandes ataques DDoS.
 - Servicios críticos que requieren alta disponibilidad durante eventos maliciosos.
 
-### AWS WAF (Web Application Firewall) ﻿![Icono de AWS Network Firewall](https://juliogaray.github.io/CEASRN.ARN/docs/img/AWSWAF.svg)
+### AWS WAF (Web Application Firewall) ﻿![Icono de AWS Network Firewall](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/docs/img/AWSWAF.svg)
 
 Anque no forma parte del contenido de este módulo, debes saber que otro servicio de seguridad a tu disposición es **AWS WAF**, un cortafuegos de aplicaciones web que protege las aplicaciones web contra amenazas comunes, como [ataques de inyección de SQL](https://es.wikipedia.org/wiki/Inyecci%C3%B3n_SQL) y [scripts entre sitios (XSS)](https://es.wikipedia.org/wiki/Cross-site_scripting). Mientras que *AWS Network Firewall* se enfoca en la seguridad de red, AWS WAF está diseñado específicamente para proteger aplicaciones web.
 

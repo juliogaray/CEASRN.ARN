@@ -26,7 +26,7 @@ Dependiendo de estos factores:
 
 Estudiémoslas en más detalle.
 
-## AWS VPC Peering ![Icono de VPC Peering Connection](https://juliogaray.github.io/CEASRN.ARN/docs/img/VPCPeeringConnection.svg)
+## AWS VPC Peering ![Icono de VPC Peering Connection](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/docs/img/VPCPeeringConnection.svg)
 
 **AWS VPC Peering** es un servicio que permite conectar dos *Virtual Private Clouds (VPC)* dentro de la infraestructura de Amazon Web Services, ya sea en la misma región o en regiones distintas. Con este servicio, es posible que dos redes VPC se comuniquen de manera privada, sin necesidad de atravesar la red pública de Internet, lo que aporta mayor seguridad y eficiencia en la transferencia de datos.
 
@@ -55,7 +55,7 @@ Para crear una conexión de VPC Peering, el propietario de una de las VPC debe i
 
 &nbsp;
 
-## AWS Transit Gateway ![Icono de AWS Transit Gateway](https://juliogaray.github.io/CEASRN.ARN/docs/img/TransitGateway.svg)
+## AWS Transit Gateway ![Icono de AWS Transit Gateway](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/docs/img/TransitGateway.svg)
 
 Como ya hemos dicho, **AWS Transit Gateway** es un servicio de red que facilita la interconexión de múltiples redes en la nube en una arquitectura centralizada. En lugar de conectar cada par de redes manualmente, AWS Transit Gateway permite configurar un solo *hub* o pasarela que centraliza las conexiones y rutas de varias *Virtual Private Clouds* (VPC), conexiones *VPN*, y otros servicios en AWS.
 
