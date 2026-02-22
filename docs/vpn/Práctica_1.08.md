@@ -10,7 +10,7 @@ En esta práctica configuraremos **AWS PrivateLink** utilizando un **Network Loa
 3. Configurar un **Interface VPC Endpoint** en otra VPC para acceder al servicio.
 4. Verificar la comunicación privada mediante AWS PrivateLink.
 
-![Esquema de la pŕactica 1.08](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/main/docs/img/Práctica-AWS-PrivateLink.svg)
+![Esquema de la pŕactica 1.08](../img/Práctica-AWS-PrivateLink.svg)
 
 ### Entrega
 Deberás:

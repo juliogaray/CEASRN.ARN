@@ -25,7 +25,7 @@ No olvides indicar en tu documento todos los datos de cada elemento: nombre (dad
 ---
 ## Infraestructura
 
-﻿![Gráfico de infraestructura de la práctica](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/main/docs/img/ARN-Práctica3.02.svg)
+﻿![Gráfico de infraestructura de la práctica](../img/ARN-Práctica3.02.svg)
 
 ### En VirtualBox:
 Configuraremos dos máquinas:

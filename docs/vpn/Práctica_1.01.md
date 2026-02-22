@@ -5,7 +5,7 @@
 
 En esta práctica vamos a crear una primera VPC, y dentro de ella definiremos dos subredes (aparte de las que va a traer la VPC por defecto): una pública y una privada. El esquema que buscamos es el siguiente (ignorando las subredes iniciales de la VPC):
 
-![Esquema práctica](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/main/docs/img/ARN-Práctica1.01.svg)
+![Esquema práctica](../img/ARN-Práctica1.01.svg)
 
 
 Debes entregar en esta práctica un archivo PDF donde expliques el proceso de creación de todos los elementos requeridos (VPC, subredes). **No es necesario que el documento contenga ninguna captura de pantalla.**
