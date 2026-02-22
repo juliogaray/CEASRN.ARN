@@ -36,7 +36,7 @@ Cada región geográfica se subdivide en varias zonas de disponibilidad (AZ), qu
 
 &nbsp; 
 
-## 2. Virtual Private Cloud ![Icono de VPC](http://julio.iespacomolla.es/CEARSN.ARN/img/VPC.svg) 
+## 2. Virtual Private Cloud ![Icono de VPC](https://juliogaray.github.io/CEASRN.ARN/docs/imgVPC.svg) 
 
 Una VPC es una sección reservada y **aislada lógicamente** de la nube de AWS, donde se pueden lanzar recursos de AWS en una red virtual definida por nosotros.
 - Nos permite **controlar nuestros recursos de red virtual**, como:
@@ -139,7 +139,7 @@ Varias subredes pueden compartir una misma TE, pero cada subred sólo puede disp
 
 En esta sección vamos a ver cómo gestionar el tráfico fuera de una VPC.
 
-### 5.1 Puerta de enlace a Internet *(Internet Gateway)* ![Icono de Internet Gateway](http://julio.iespacomolla.es/CEARSN.ARN/img/VpcInternetGateway.svg)
+### 5.1 Puerta de enlace a Internet *(Internet Gateway)* ![Icono de Internet Gateway](https://juliogaray.github.io/CEASRN.ARN/docs/imgVpcInternetGateway.svg)
 
 Una puerta de enlace a Internet es un componente de VPC escalable y redundante, de alta disponibilidad, que permite la comunicación entre las máquinas virtuales de una subred pública e Internet. De este modo podemos:
 - Permitir la comunicación desde las máquinas virtuales de la subred pública hacia Internet;
@@ -147,7 +147,7 @@ Una puerta de enlace a Internet es un componente de VPC escalable y redundante, 
 
 Para hacer una subred pública, añadimos una *puerta de enlace a Internet* a nuestra VPC, y añadimos una entrada a la tabla de encaminamiento de la subred para dirigir el tráfico hacia Internet.
 
-#### Puerta de enlace NAT a Internet *(Internet NAT Gateway)* ![Icono de Internet NAT Gateway](http://julio.iespacomolla.es/CEARSN.ARN/img/VpcNatGateway.svg)
+#### Puerta de enlace NAT a Internet *(Internet NAT Gateway)* ![Icono de Internet NAT Gateway](https://juliogaray.github.io/CEASRN.ARN/docs/imgVpcNatGateway.svg)
 
 Podemos usar una *puerta de enlace NAT a Internet (NAT Gateway)* para permitir que una subred privada se conecte a Internet. La subred privada debe tener una ruta en la tabla de encaminamiento correspondiente a la *NAT Gateway* (que debe encontrarse en una subred pública). Esto permite a las máquinas virtuales de la subred privada acceder a Internet (por ejemplo, para buscar actualizaciones), pero impide iniciar tráfico en sentido inverso, desde Internet hacia la subred privada.
 

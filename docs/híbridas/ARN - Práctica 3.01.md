@@ -8,7 +8,7 @@
 3. Conectar un ordenador con Windows 10/11 a una VPC de AWS de forma segura.
 4. Verificar la conectividad y acceder a recursos dentro de la VPC.
 
-![Esquema de la pŕactica 3.01](http://julio.iespacomolla.es/CEARSN.ARN/img/ARN-Práctica3.01.svg)
+![Esquema de la pŕactica 3.01](https://juliogaray.github.io/CEASRN.ARN/docs/imgARN-Práctica3.01.svg)
 
 ### Entrega
 Deberás:
