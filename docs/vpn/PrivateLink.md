@@ -10,7 +10,7 @@ En entornos empresariales modernos, garantizar una comunicación segura y privad
 
 ﻿![Esquema de conexión entre VPC usando AWS PrivateLink](https://docs.aws.amazon.com/images/prescriptive-guidance/latest/integrate-third-party-services/images/p1_privatelink.png)
 
-## ¿Qué es AWS PrivateLink? ![Icono de AWS PrivateLink Gateway](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/docs/img/PrivateLink.svg)
+## ¿Qué es AWS PrivateLink? ![Icono de AWS PrivateLink Gateway](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/main/docs/img/PrivateLink.svg)
 **AWS PrivateLink** es un servicio que permite a las aplicaciones comunicarse entre sí **utilizando la red privada de AWS**, sin necesidad de exponer datos a Internet. Esto se logra mediante el uso de **Interface VPC Endpoints**, que conectan servicios alojados en una VPC (Virtual Private Cloud) con otras VPCs o servicios de AWS.
 
 En lugar de acceder a un servicio a través de su dirección pública (como una API en Internet), **AWS PrivateLink** redirige todo el tráfico a través de la infraestructura privada de AWS. Esto ofrece mayor seguridad, privacidad y rendimiento.

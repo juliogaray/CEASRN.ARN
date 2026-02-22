@@ -6,7 +6,7 @@
 
 (v20250202)
 
-## 1. ¿Qué es Amazon GuardDuty? ![Icono de Amazon GuardDuty](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/docs/img/GuardDuty.svg)
+## 1. ¿Qué es Amazon GuardDuty? ![Icono de Amazon GuardDuty](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/main/docs/img/GuardDuty.svg)
 Amazon GuardDuty es un servicio de detección de amenazas en AWS que utiliza inteligencia artificial, aprendizaje automático y fuentes de datos de seguridad para identificar actividades sospechosas en una cuenta de AWS. Su objetivo es ayudar a las organizaciones a detectar accesos no autorizados, ataques de fuerza bruta, minería de criptomonedas y otras actividades maliciosas.
 
 GuardDuty se asemeja a un [**Sistema de Detección de Intrusiones (IDS)**](https://es.wikipedia.org/wiki/Sistema_de_detecci%C3%B3n_de_intrusos) en que supervisa eventos y detecta comportamientos anómalos, pero a diferencia de un IDS tradicional, no requiere implementación de sensores en la red ni configuración de reglas manuales. En su lugar, se basa en **fuentes de datos en la nube** y **aprendizaje automático** para detectar amenazas de manera automática y escalable.

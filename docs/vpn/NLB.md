@@ -6,7 +6,7 @@
 
 (v20241124)
 
-## ¿Qué es un Network Load Balancer (NLB)? ![Icono de Network Load Balancer](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/docs/img/NLB.svg)
+## ¿Qué es un Network Load Balancer (NLB)? ![Icono de Network Load Balancer](https://raw.githubusercontent.com/juliogaray/CEASRN.ARN/main/docs/img/NLB.svg)
 
 Un **Network Load Balancer (NLB)** es un servicio de AWS que distribuye el tráfico entrante entre varias instancias o servicios [backend](https://es.wikipedia.org/wiki/Front_end_y_back_end) en una red, asegurando alta disponibilidad, escalabilidad y tolerancia a fallos. Está diseñado específicamente para manejar grandes volúmenes de tráfico y ofrecer conexiones de baja latencia a nivel de red (capa 4 del [modelo OSI](https://es.wikipedia.org/wiki/Modelo_OSI)).
 
