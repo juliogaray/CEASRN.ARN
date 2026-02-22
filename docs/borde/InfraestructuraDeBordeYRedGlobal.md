@@ -11,17 +11,17 @@
 
 La **infraestructura de borde** en AWS está diseñada para acercar los servicios de computación, almacenamiento y redes a los usuarios finales con el fin de reducir la latencia y mejorar la experiencia del cliente. Esto se logra mediante el uso de ubicaciones de borde *(Edge Locations), AWS Outposts* y *AWS Wavelength.* En las siguientes líneas vamos a ver una introducción a todos estos conceptos.
 
-### 1.1 Ubicaciones de borde *(Edge Locations)* ![\[Icono de Edge Location\]](http://julio.iespacomolla.es/CEARSN.ARN/imágenes/EdgeLocation.svg)
+### 1.1 Ubicaciones de borde *(Edge Locations)* ![\[Icono de Edge Location\]](http://julio.iespacomolla.es/CEARSN.ARN/img/EdgeLocation.svg)
 Las **ubicaciones de borde *(Edge Locations)*** son [centros de procesamiento de datos (CPD)](https://es.wikipedia.org/wiki/Centro_de_procesamiento_de_datos) distribuidos estratégicamente en diferentes regiones del mundo para acelerar la entrega de contenido mediante [**Amazon CloudFront**](https://aws.amazon.com/es/cloudfront/), el servicio de [CDN (Content Delivery Network)](https://es.wikipedia.org/wiki/Red_de_distribuci%C3%B3n_de_contenidos) de AWS. Sus características principales son:
 - Caché de contenido estático y dinámico.
 - Seguridad mejorada con [AWS Shield](https://aws.amazon.com/es/shield/), [AWS WAF](https://aws.amazon.com/es/waf/) y [AWS Certificate Manager](https://aws.amazon.com/es/certificate-manager/).
 - Integración con [Lambda@Edge](https://aws.amazon.com/es/lambda/edge/) para ejecutar código en ubicaciones de borde y personalizar la experiencia del usuario final.
 
 
-### 1.2 AWS Outposts ![\[Icono de AWS Outpost\]](http://julio.iespacomolla.es/CEARSN.ARN/imágenes/Outposts.svg)
+### 1.2 AWS Outposts ![\[Icono de AWS Outpost\]](http://julio.iespacomolla.es/CEARSN.ARN/img/Outposts.svg)
 ***AWS Outposts*** es una extensión de la infraestructura de AWS en las instalaciones del cliente. Ofrece los mismos servicios de AWS en hardware físico ubicado en un centro de datos propio, ideal para aplicaciones con exigencias de baja latencia o regulaciones estrictas sobre la localización de datos.
 
-### 1.3 AWS Wavelength ![\[Icono de AWS Wavelength\]](http://julio.iespacomolla.es/CEARSN.ARN/imágenes/Wavelength.svg)
+### 1.3 AWS Wavelength ![\[Icono de AWS Wavelength\]](http://julio.iespacomolla.es/CEARSN.ARN/img/Wavelength.svg)
 ***AWS Wavelength*** permite el despliegue de servicios de AWS en [redes 5G](https://es.wikipedia.org/wiki/5G) para minimizar la latencia en aplicaciones que así lo demanden, como juegos en la nube, [IoT](https://es.wikipedia.org/wiki/Internet_de_las_cosas) y transmisión en tiempo real.
 
 Como puedes ver, existen similitudes entre estos dos últimos servicios (AWS Outposts y AWS Wavelength). Sin embargo son servicios bastante diferentes:
@@ -58,12 +58,12 @@ Como hemos dicho, **Amazon CloudFront** es el servicio de AWS que utiliza la inf
 
 Por otra parte, [**Netflix**](https://es.wikipedia.org/wiki/Netflix) es una de las plataformas de [*streaming*](https://es.wikipedia.org/wiki/Streaming) más populares del mundo. Y utiliza Amazon CloudFront para mejorar la entrega de contenido de vídeo a sus usuarios.
 
-### 3.1 Exigencias de Netflix  ![\[Icono de Netflix\]](http://julio.iespacomolla.es/CEARSN.ARN/imágenes/Netflix_2015_N_logo.svg)
+### 3.1 Exigencias de Netflix  ![\[Icono de Netflix\]](http://julio.iespacomolla.es/CEARSN.ARN/img/Netflix_2015_N_logo.svg)
 - **Alta demanda de ancho de banda:** Netflix transmite grandes volúmenes de datos, fundamentalmente vídeo en alta calidad (Full HD, 4K, HDR).
 - **Latencia y [*buffering*](https://www.cloudflare.com/es-es/learning/video/what-is-buffering/)*:*** para garantizar una reproducción fluida, es esencial minimizar la latencia y el tiempo de carga.
 - **Escalabilidad global:** con millones de usuarios en diferentes regiones, Netflix necesita una infraestructura de entrega de contenido eficiente y distribuida.
 
-### 3.2 Solución con Amazon CloudFront ![\[Icono de CloudFront\]](http://julio.iespacomolla.es/CEARSN.ARN/imágenes/CloudFront.svg)
+### 3.2 Solución con Amazon CloudFront ![\[Icono de CloudFront\]](http://julio.iespacomolla.es/CEARSN.ARN/img/CloudFront.svg)
 Netflix utiliza Amazon CloudFront como parte de su red de distribución de contenido (CDN) para ofrecer sus servicios de manera óptima a sus clientes. Para ello hace uso de:
 
 1. **Caché de contenido en ubicaciones de borde:**
