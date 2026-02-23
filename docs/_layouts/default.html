@@ -16,25 +16,23 @@
       <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
       {% endif %}
 -->
-<!-- Añadido por jgg para crear una barra lateral para la toc -->
-<div class="container">
-  <aside class="toc">
-    {{ content | toc }}
-  </aside>
+<!-- Añadido por jgg, sacado del tema leap-day, para crear una barra lateral para la toc -->
+ <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        {{ content }}
 
-  <main class="content">
-    {{ content }}
-  </main>
-</div>
-
-
-      {% if site.github.private != true and site.github.license %}
-      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-<!--        This site is open source. {% github_edit_link "Improve this page" %}. -->
-      </div>
-      {% endif %}
+      </section>
+      <footer>
+        {% if site.github.is_project_page %}
+          <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
+      </footer>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
+
+
   </body>
 </html>
