@@ -31,7 +31,7 @@ Para entender AWS PrivateLink, es importante conocer sus componentes principales
    - Los clientes usan este punto de acceso para enviar y recibir tráfico hacia el *Endpoint Service,* como si se tratara de un recurso local.
 
 3. **Network Load Balancer (NLB)**:
-   - El [**NLB**](http://julio.iespacomolla.es/CEARSN.ARN/NLB.md) es un componente necesario para que el proveedor exponga su servicio mediante *PrivateLink.* Se encarga de recibir el tráfico de los Interface VPC Endpoints y distribuirlo entre las instancias *backend.* Ten en cuenta que no se puede usar AWS PrivateLink sin un NLB. Si no queremos usar un NLB, podemos usar métodos de conexión alternativos a AWS PrivateLink, como *VPC Peering* o *Transit Gateway.* Por supuesto, podemos acceder a servicios gestionados por AWS (como p. ej. S3) sin necesidad de un NLB porque no requieren un Endpoint Service personalizado.
+   - El [**NLB**](NLB.html) es un componente necesario para que el proveedor exponga su servicio mediante *PrivateLink.* Se encarga de recibir el tráfico de los Interface VPC Endpoints y distribuirlo entre las instancias *backend.* Ten en cuenta que no se puede usar AWS PrivateLink sin un NLB. Si no queremos usar un NLB, podemos usar métodos de conexión alternativos a AWS PrivateLink, como *VPC Peering* o *Transit Gateway.* Por supuesto, podemos acceder a servicios gestionados por AWS (como p. ej. S3) sin necesidad de un NLB porque no requieren un Endpoint Service personalizado.
 
 ## Funcionamiento de AWS PrivateLink
 El flujo básico de PrivateLink puede resumirse en los siguientes pasos:

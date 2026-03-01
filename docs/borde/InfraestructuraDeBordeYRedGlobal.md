@@ -32,7 +32,7 @@ Como puedes ver, existen similitudes entre estos dos últimos servicios (AWS Out
 | **Propósito** | Extiende la infraestructura de AWS a centros de datos locales o instalaciones del cliente. | Permite ejecutar cargas de trabajo en redes 5G para reducir la latencia en aplicaciones móviles y en tiempo real. |
 | **Ubicación** | Instalaciones del cliente (data centers privados, fábricas, hospitales, etc.). | **Infraestructura de AWS dentro de redes 5G de operadores de telecomunicaciones.** |
 | **Casos de uso** | Aplicaciones con requisitos de baja latencia o regulaciones estrictas sobre la localización de datos. | Aplicaciones que requieren latencias ultrabajas, como juegos en la nube, realidad aumentada/virtual, IoT y transmisión de vídeo en vivo. |
-| **Conectividad** | Conectado a la región de AWS más cercana mediante [AWS Direct Connect o VPN](http://julio.iespacomolla.es/CEARSN.ARN/ConectividadparaVPCenAWS.md). | Se integra directamente con redes 5G para minimizar la latencia desde el dispositivo al servidor. |
+| **Conectividad** | Conectado a la región de AWS más cercana mediante [AWS Direct Connect o VPN](../híbridas/ConectividadparaVPCenAWS.html). | Se integra directamente con redes 5G para minimizar la latencia desde el dispositivo al servidor. |
 | **Servicios compatibles** | Soporta servicios de AWS como EC2, EBS, RDS y S3 en entornos locales. | Proporciona acceso a instancias EC2, contenedores y otros servicios en redes de telecomunicaciones 5G. |
 &nbsp;
 
@@ -46,7 +46,7 @@ AWS cuenta con una red global de alto rendimiento que conecta sus CPD y servicio
 - **Red troncal de fibra óptica privada:** AWS opera su propia red de fibra para conectar sus regiones y ubicaciones de borde.
 - **Múltiples regiones y *Zonas de Disponibilidad (AZ):*** AWS divide sus regiones en zonas de disponibilidad para mejorar la redundancia y la recuperación ante desastres.
 - **[AWS Global Accelerator](https://aws.amazon.com/es/global-accelerator/):** es un servicio que optimiza el tráfico de usuarios mediante el enrutamiento hacia la región de AWS más cercana y con mejor rendimiento.
-- **Conectividad directa con [AWS Direct Connect](http://julio.iespacomolla.es/CEARSN.ARN/ConectividadparaVPCenAWS.md):** permite a empresas conectar sus redes privadas directamente a AWS sin pasar por Internet, reduciendo latencia y mejorando la seguridad.
+- **Conectividad directa con [AWS Direct Connect](../híbridas/ConectividadparaVPCenAWS.html):** permite a empresas conectar sus redes privadas directamente a AWS sin pasar por Internet, reduciendo latencia y mejorando la seguridad.
 
 ### 2.2 Beneficios de la Red Global de AWS
 - **Baja latencia y alta velocidad:** gracias a su red privada de fibra óptica.
