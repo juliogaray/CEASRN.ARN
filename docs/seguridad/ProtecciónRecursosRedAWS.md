@@ -30,7 +30,7 @@ La protección de recursos en AWS es un componente fundamental de cualquier estr
   - Se implementa en zonas de disponibilidad para garantizar redundancia.
 
 - **Monitorización y visibilidad:**
-  - Integración nativa con [**Amazon CloudWatch**](http://julio.iespacomolla.es/CEARSN.ARN/CloudWatch.md), **AWS CloudTrail** y [**Amazon VPC Flow Logs**]((http://julio.iespacomolla.es/CEARSN.ARN/FlowLogs.md)) para monitorización, auditoría y análisis de tráfico.
+  - Integración nativa con [**Amazon CloudWatch**](../vpn/CloudWatch.html), **AWS CloudTrail** y [**Amazon VPC Flow Logs**](../vpn/FlowLogs.html) para monitorización, auditoría y análisis de tráfico.
 
 - **Conexión a través de *Firewall Endpoint:***
   - Dentro de una Amazon VPC podemos definir un ***Firewall Endpoint***, un punto a de acceso que permite a los usuarios conectar su red al servicio *AWS Network Firewall.* Este endpoint actúa como un punto de control para dirigir el tráfico de red hacia las reglas configuradas en *Network Firewall,* proporcionando un mecanismo de inspección y protección avanzada del tráfico dentro de la VPC.
