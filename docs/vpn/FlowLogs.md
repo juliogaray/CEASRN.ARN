@@ -1,5 +1,5 @@
 ﻿![Generalitat Valenciana - CEUO / IES Poeta Paco Mollá (Alicante)](https://raw.githubusercontent.com/juliogaray/recursos/main/img/Cabecera_CEUO_IESPPM_NOFSE_Transparente.svg)
-# C.E. ADMINISTRACIÓN DE RECURSOS Y SERVICIOS EN LA NUBE
+# C.E. RECURSOS Y SERVICIOS EN LA NUBE
 # ADMINISTRACIÓN DE REDES EN LA NUBE
 ----
 # VPC Flow Logs
